@@ -8,6 +8,7 @@ class Cicd02BootApplicationTests {
 
     @Test
     void contextLoads() {
+        throw new RuntimeException("일단 Fail이긴해용");
     }
 
 }
